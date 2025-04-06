@@ -35,3 +35,12 @@ Read through the following resources (including links within) regarding the Sea 
 5. NASA's Climate Change: Vital Signs of the Planet: Presents key indicators of climate change, including detailed information on sea level trends. 
 [https://climate.nasa.gov/vital-signs/sea-level/?intent=121]
 
+<hr>
+
+### ***Dataset:***
+
+The data used in this analysis was sourced from the NOAA STAR (Center for Satellite Applications and Research) website.
+
+**Google Link to the Source** - https://www.star.nesdis.noaa.gov/socd/lsa/SeaLevelRise/
+
+Select the global mean sea level from the Products tab in the left. The dataset chosen was the "Seasonal signals removed" CSV file under the "TOPEX, Jason-1, -2, -3, and Sentinel-6MF" column. This version of the dataset has had seasonal variations (like annual cycles) filtered out to focus on the long-term sea level trend. The measurements, derived from satellite altimetry missions like TOPEX/Poseidon, Jason-1 through Jason-3, and Sentinel-6 Michael Freilich, represent global changes in mean sea level from 1992 to the present.
