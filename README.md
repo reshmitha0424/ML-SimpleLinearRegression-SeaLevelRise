@@ -47,9 +47,11 @@ Select the global mean sea level from the Products tab in the left. The dataset 
 
 <hr>
 
-### ***Overview:***
-
-This project explores the rate of global sea level rise using satellite altimetry data provided by NOAA. It demonstrates a basic data science workflow — from loading and preparing real-world climate data to applying simple linear regression to estimate long-term sea level trends. The goal is to provide a foundational understanding of how data analysis can be applied to study climate change.
+### ***Objectives:***
+<ul>
+  <li>Visualize sea level changes over time to identify long-term trends.</li>
+  <li>Apply simple linear regression to estimate the annual rate of sea level rise.</li>
+</ul>
 
 ### ***Methodology:***
 
