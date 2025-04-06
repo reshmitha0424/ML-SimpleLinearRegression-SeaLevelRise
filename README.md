@@ -44,3 +44,43 @@ The data used in this analysis was sourced from the NOAA STAR (Center for Satell
 **Google Link to the Source** - https://www.star.nesdis.noaa.gov/socd/lsa/SeaLevelRise/
 
 Select the global mean sea level from the Products tab in the left. The dataset chosen was the "Seasonal signals removed" CSV file under the "TOPEX, Jason-1, -2, -3, and Sentinel-6MF" column. This version of the dataset has had seasonal variations (like annual cycles) filtered out to focus on the long-term sea level trend. The measurements, derived from satellite altimetry missions like TOPEX/Poseidon, Jason-1 through Jason-3, and Sentinel-6 Michael Freilich, represent global changes in mean sea level from 1992 to the present.
+
+<hr>
+
+### ***Overview:***
+
+This project explores the rate of global sea level rise using satellite altimetry data provided by NOAA. It demonstrates a basic data science workflow — from loading and preparing real-world climate data to applying simple linear regression to estimate long-term sea level trends. The goal is to provide a foundational understanding of how data analysis can be applied to study climate change.
+
+### ***Methodology:***
+
+<ol>
+  <li>  
+    Data Cleaning and Preparation
+    <ul>
+      <li>The CSV file includes metadata in the first few rows, which were skipped during import.</li>
+      <li>A new column, minlev, was created to represent the minimum sea level measurement for each time point (across active satellites).</li>
+    </ul>
+  </li>
+  <li>
+    Exploratory Visualization
+    <ul>
+      <li>A line plot was generated to visualize trends in minimum sea level over time.</li>
+    </ul>
+  </li>
+  <li>
+    Linear Regression
+    <ul>
+      <li>Simple linear regression was applied using NumPy’s polyfit to estimate the rate of sea level rise (slope) and the intercept.</li>
+      <li>A fitted line was plotted alongside the original data for visual interpretation.</li>  
+    </ul>
+  </li>
+</ol>
+
+
+### ***Key Findings:***
+
+<ul>
+  <li>There is a clear upward trend in global sea levels from 1992 to the present.</li>
+  <li>Based on linear regression, the estimated rate of sea level rise is approximately 3.18 mm/year, where 3.18 is the slope from the analysis.</li>
+  <li>The analysis highlights the long-term impact of climate change as observed through consistent satellite monitoring.</li>
+</ul>
